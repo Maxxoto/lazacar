@@ -1,0 +1,39 @@
+/* CSS HEADER */
+header {
+	border-bottom: 0.5px solid #e7e7e7;
+	
+}
+.logo img  {
+	width: 200px;
+	margin-top: -10px;
+	
+}
+.navbar-default {
+	
+}
+
+.lazacar{
+	font-family: Lato;
+	
+}
+
+.navbar .nav > li > a:focus,
+.navbar .nav > li > a:hover {
+	background-color: #fff;
+	border-top:2px solid cyan;
+  	color: #000;
+
+}
+.dropdown li{
+	font-family: ;
+
+}
+.navbar-brand {
+	background-color: cyan ;
+	border-top: 1px solid #fff ;
+		
+}
+.navbar-header {
+	
+}
+

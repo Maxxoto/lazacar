@@ -1,0 +1,472 @@
+/* CSS NEW INDEX */
+
+
+@font-face{
+
+	font-family: "Web-Segoe";
+	src:url("../fonts/Segoe/segoeui.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+
+	font-family: "Web-Segoe-SemiBold";
+	src:url("../fonts/Segoe/seguisb.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+
+	font-family: "Web-Segoe-SemiLight";
+	src:url("../fonts/Segoe/segoeuisl.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face{
+
+	font-family: "Web-Segoe-Light";
+	src:url("../fonts/Segoe/segoeuil.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	margin: 0;
+	font-family: "Helvetica Neue,Helvetica,Arial,sans-serif";
+	font-size: 14px;
+}
+.clear{
+	float: none;
+	clear: both;
+}
+.center{
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* HEADER */
+
+#header{
+	padding: 33px 0;
+}
+#header .logo{
+	float: left;
+}
+#header .navbar{
+	float: right;
+}
+#header .navbar ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+#header .navbar ul li{
+	display: inline-block;
+	font-size: 20px;
+	font-family: "Web-Segoe-SemiBold";
+}
+#header .navbar ul li a{
+	display: inline-block;
+	padding: 25px;
+	text-transform: uppercase;
+	color: #141414;
+	text-decoration: none;
+}
+#header .navbar ul li a:hover{
+	color:#b6e984;
+	background-color: #fff;
+	-webkit-transition:0.3s;
+	-moz-transition:0.3s;
+	-o-transition:0.3s;
+	-ms-transition: 0.3s;
+	transition: 0.3s;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px #cccccc;
+}
+
+/* HEADER */
+
+
+/*SLIDER*/
+#slider{
+	background: url("../img/slider1.png");
+	-webkit-background-size:cover;
+	background-position: cover;
+	padding: 45px ;
+	text-align: center;
+}
+#slider h1{
+	font-size: 48px;	
+	font-family: "Web-Segoe-SemiBold";
+	color: #ffffff;
+	font-weight: normal;
+}
+#slider h2{
+	font-size: 24px;
+	font-family: "Web-Segoe-SemiLight";
+	color: #ffffff;
+	font-weight: normal;
+}
+#slider h3{
+	font-size: 22px;
+	font-family: "Web-Segoe-Light";
+	color: #ffffff;
+	font-weight: normal;
+}
+.btn-primary{
+	border: solid 1px #ffffff;
+	color:#ffffff;
+	text-transform: uppercase;
+	font-family: "Web-Segoe-Light";
+	font-size: 24px;
+	text-decoration: none;
+	padding: 5px 40px 10px 40px;
+	display: inline-block;
+}
+.btn-secondary{
+	border: solid 3px #fff;
+	color:#000;
+	text-transform: uppercase;
+	font-family: "Web-Segoe-Light";
+	font-size: 24px;
+	text-decoration: none;
+	padding: 5px 40px 10px 40px;
+	display: inline-block;
+	background-color: #b6e984;
+}
+.btn-danger{
+	border: solid 1px #fff;
+	color:#fff;
+	text-transform: uppercase;
+	font-family: "Web-Segoe-Light";
+	font-size: 24px;
+	text-decoration: none;
+	padding: 5px 40px 10px 40px;
+	display: inline-block;
+	background-color:  #f37d7d;
+}
+.btn-sm{
+	font-family: "Web-Segoe-Light";
+	font-size: 14px;
+	
+}
+.btn-primary:hover{
+	border: solid 1px #ffffff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	-transition: 0.5s;
+	background-color: #ffffff;
+	color:#767676;
+	cursor: pointer;
+}
+.btn-secondary:hover{
+	border: solid 3px #ffffff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	-transition: 0.5s;
+	background-color: #ffffff;
+	color:#767676;
+	cursor: pointer;
+}
+.btn-danger:hover{
+	border: solid 3px #ffffff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	-transition: 0.5s;
+	background-color: #ffffff;
+	color:#767676;
+	cursor: pointer;
+}
+/*SLIDER*/
+
+
+/*CONTENT*/
+#layanan{
+	padding: 25px 0;
+	font-family: "Web-Segoe-Light";
+	font-weight: normal;
+}
+
+#layanan .konten-judul{
+	text-transform: uppercase;
+	letter-spacing: 7;
+	text-align: center;
+	font-size: 42px;
+	color: #ffffff;
+	background-color: #00ffcc;
+	padding: 40px;
+	margin-bottom: 20px;
+
+}
+
+.konten{
+	text-align: center;
+	width: 100%;
+}
+.isi{
+	padding: 10px 10px 10px 10px;
+}
+.layanan-kami{
+	background-color: #f37d7d;
+	padding: 10px;
+	width: 30%;
+	float: left;
+	margin-left: 5px;
+	margin-right: 5px;
+	text-decoration: none;
+	color: #000000;
+
+}
+
+/*additional
+.layanan-kami:last-child{
+	float: right;
+	
+}
+
+*/
+.layanan-kami .text-content{
+	font-family: "Web-Segoe-Light";
+	font-size: 24px;
+	margin-top: 10px;
+	margin-bottom: 10px;	
+}
+.layanan-kami:hover {
+	background-color: #ffffff;
+	color: #f37d7d;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	transition: 0.5s;
+}
+
+/*CONTENT*/
+
+/*FOOTER*/
+
+#footer{
+	background : url("../img/footer.png");
+	margin-top: 10px;	
+	height: 162px;
+}
+#footer h1{
+	font-family: "Web-Segoe-Light";
+	text-transform: uppercase;
+	color: #484545;
+	padding-left: 133px;
+	float: left;
+}
+#footer img{
+	padding-top: 15px;
+	padding-left: 10px;
+}
+.dmca{
+	float: none;
+
+}
+.copyright{
+	float: right;
+	font-family: "Web-Segoe-SemiLight";
+	color: #ffffff;
+	font-size: 18px;
+}
+
+/*FOOTER*/
+
+/*ADMIN PANEL CSS*/
+.centeradmin{
+	width: 1200px;
+	margin:0 auto;
+}
+#headeradmin{
+	background-color: #00ffff;
+	height: 90px;
+	-webkit-box-shadow: 0px 0px 10px #484545;
+}
+#headeradmin .judul a{
+	float: left;
+	text-transform: uppercase;
+	margin-top: 20px;
+	font-family: "Web-Segoe-Light";
+	color: #484545;
+	font-size: 36px;
+	text-decoration: none;
+}
+#headeradmin .judul span{
+	font-family: "Web-Segoe-SemiBold"
+}
+#headeradmin .judul a:hover{
+	color: #fff;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	transition: 0.5s;
+}
+
+
+/*ADMINBAR*/
+
+.adminbar {
+	float: right;
+	margin-top: 35px;
+	color: #000;
+	font-family: "Web-Segoe-Light";
+	font-size: 16px;
+	
+}
+.adminbar span{
+	font-family: "Web-Segoe-SemiLight";
+	color: #484545;
+	
+}	
+.adminbar a{
+	text-decoration: none;
+	color: #484545;
+
+}
+.adminbar a:hover{
+	color: #fff;
+}
+
+/*ADMINBAR*/
+
+/*ADMIN CONTENT */
+#menuadmin{
+	float: left;
+	text-align: center;
+}
+#menuadmin a{
+	text-decoration: none;
+	font-family: "Web-Segoe-SemiBold";
+	color: #000;
+	text-transform: uppercase;
+}
+#menuadmin .menutitle{
+	background-color: #ff4343 ;
+	border: solid 1px #000;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-left: 25px;
+	margin-top: 25px;
+	border-radius: 10px 10px 0px 0px;
+	width: 230px;
+	font-size: 32px;
+}
+#menuadmin .menutitle a{
+	color: #fff;
+}
+#menuadmin .menutitle a:hover{
+	color: #484545;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	transition: 0.5s;
+}
+#menuadmin .menubody {
+	background-color: #fff;
+	margin-left: 25px;
+	border-right:solid 1px #000; 
+	border-left:solid 1px #000;
+	border-bottom: solid 1px #000;
+	border-bottom-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	width: 230px;
+	padding-top:20px;
+	padding-bottom: 20px;
+
+}
+#menuadmin .menubody li {
+	display: block;
+	list-style-type: none;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+#menuadmin .menubody li a:hover{
+	color: #ff4343 ;
+	-webkit-transition:0.5s;
+	-moz-transition:0.5s;
+	-ms-transition:0.5s;
+	-o-transition:0.5s;
+	transition: 0.5s;
+}
+
+#menuadmin .active {
+	color: #8c8c8c;
+	border: solid 1px #000;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+#content{
+	float: right;
+	border:solid 1px #000;
+	margin-top: 25px;
+	margin-right: 25px;
+	width: 75%;
+	height: 450px auto;
+
+}
+
+#content .contentheader{
+	height: 50px;
+	color: #fff;
+	background-color: #ff751a;
+	font-family: "Web-Segoe-SemiBold";
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 24px;
+	padding-top: 15px;
+}
+#content .contentbody table{
+	font-family: "Web-Segoe-SemiLight";
+	font-size: 18px;
+	margin-left: 25px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.table-responsive{
+	overflow-x: auto;
+}
+.table{
+	border-collapse: collapse;
+	text-align: left;
+	margin-bottom: 50px;
+	
+}
+.table th,td{	
+	padding: 15px;
+	border:solid 1px #ddd;
+
+}
+.table input{
+	font-size: 16px;
+	width: 100% ;
+}
+
+/*ADMIN CONTENT*/
+
+
+/*ADMIN PANEL CSS*/
+
+/* CSS NEW INDEX */
