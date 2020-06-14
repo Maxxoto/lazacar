@@ -5,6 +5,11 @@ Sistem Penjualan Mobil Online dengan menggunakan metode Kredit dan Cash project 
 - PHP 5.5 or lower
 - Phpmyadmin or Mysql
 - Recommended install XAMPP package
+## Features
+- Laporan Penjualan Mobil
+- Laporan Pembelian (Cash)
+- Laporan Pembelian (Kredit) (Pending)
+- Laporan Pelanggan
 ## Usage - 
 
 ```
